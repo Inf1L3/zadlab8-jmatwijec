@@ -26,6 +26,9 @@ public abstract class Product {
         return price;
     }
 
+    public Product() {
+    }
+
     public void setPrice(double price) {
         this.price = price;
     }
