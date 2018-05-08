@@ -9,6 +9,10 @@ package Zadania.Zad4i5;
  *
  * @author Kuba
  */
-public abstract class FiguraGeometryczna {
-    public abstract float obliczPole();
+public abstract class FiguraPlaska extends FiguraGeometryczna{
+    public abstract float bliczObwod();
+    @Override
+    public String toString(){
+        return "\"Obliczanie parametrów figury płaskiej\"";
+    }
 }
